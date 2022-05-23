@@ -229,6 +229,10 @@ footer div {
 
 /* prix */
 
+.sous-titre {
+  margin: 0 20px;
+}
+
 .prix {
   display: flex;
   flex-direction: row;
@@ -236,11 +240,12 @@ footer div {
   margin: 0 40px 175px;
 }
 
-.fifties .prix p {
+.prix h3 {
   margin: auto;
   margin-left: 0;
   font-size: 30px;
   font-family: sans-serif;
+  font-weight: 400;
   color: black;
 } 
 
@@ -281,7 +286,6 @@ footer div {
 
 .fifties {
   background-color: white;
-  height: 2000px;
 }
 
 .fifties .nav_bar {
@@ -295,10 +299,6 @@ footer div {
 .fifties main h2,
 .fifties main p {
   color: #91CBB1;
-}
-
-.fifties .sous-titre {
-  margin: 0 20px;
 }
 
 .img_artist {
@@ -317,5 +317,40 @@ footer div {
 }
 
 .fifties .produit-2 {
+  color: #EE732B;
+}
+
+/* sixties */
+
+.sixties {
+  background-color: white;
+}
+
+.sixties .nav_bar {
+  background-color: #FEE4BD;
+}
+
+.sixties .burger div {
+  background-color: #FDC604;
+}
+
+.sixties main h2,
+.sixties main p {
+  color: #FDC604;
+}
+
+.sixties .prix a {
+  background-color: #FEE4BD;
+}
+
+.sixties .citation {
+  background-color: #FEE4BD;
+}
+
+.sixties .produit-1 {
+  color: #91CBB1;
+}
+
+.sixties .produit-2 {
   color: #EE732B;
 }
