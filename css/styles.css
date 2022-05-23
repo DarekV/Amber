@@ -354,3 +354,39 @@ footer div {
 .sixties .produit-2 {
   color: #EE732B;
 }
+
+/* seventies */
+
+.seventies {
+  background-color: white;
+}
+
+.seventies .nav_bar {
+  background-color: #EE732B;
+}
+
+.seventies .burger div {
+  background-color: #B22D32;
+}
+
+.seventies main h2,
+.seventies main p {
+  color: #B22D32;
+}
+
+.seventies .prix a {
+  background-color: #EE732B;
+}
+
+.seventies .citation {
+  background-color: #EE732B;
+  height: 620px;
+}
+
+.seventies .produit-1 {
+  color: #91CBB1;
+}
+
+.seventies .produit-2 {
+  color: #FDC604;
+}
