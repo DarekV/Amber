@@ -12,6 +12,7 @@ body {
   position: fixed;
   width: 375px;
   top: 0;
+  z-index: 2;
 }
 
 .navi {
@@ -50,7 +51,7 @@ body {
 }
 
 .burger div {
-  height: 2px;
+  height: 4px;
   width: 25px;
   background-color: black;
   border-radius: 10%;
@@ -58,7 +59,7 @@ body {
 }
 
 .burger-activ {
-  height: 20px;
+  height: 22px;
   transition: 1s;
 }
 
@@ -114,6 +115,11 @@ img {
   margin: 100px 20px 0px;
   border-radius: 25px;
   box-shadow: 0px -1px 16px -2px rgba(0, 0, 0, 0.43);
+  width: auto;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* footer */
@@ -161,6 +167,7 @@ footer div {
   overflow: hidden;
   width: 100%;
   height: 525px;
+  transform: translateY(-5px);
 }
 
 .carousel-slide {
@@ -201,6 +208,75 @@ footer div {
   width: 25px;
 }
 
+/* Produits */
+
+.produit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 375px;
+}
+
+.produit img {
+  width: 70%;
+  transform: translateX(20%);
+}
+
+.produit p {
+  text-align: center;
+  margin: 0;
+}
+
+/* prix */
+
+.prix {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 40px 175px;
+}
+
+.fifties .prix p {
+  margin: auto;
+  margin-left: 0;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: black;
+} 
+
+.prix a {
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px;
+  color: black;
+  background-color: #91CBB1;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* citation */
+
+.citation {
+  transform: translateY(-5px);
+  padding-top: 55px;
+  height: 575px;
+}
+
+.citation img {
+  width: 150px;
+  display: flex;
+  margin: auto;
+}
+
+.citation p {
+  font-family: abril-fatface, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: 100px 20px 20px;
+}
+
 /* 50s */
 
 .fifties {
@@ -208,3 +284,38 @@ footer div {
   height: 2000px;
 }
 
+.fifties .nav_bar {
+  background-color: #91CBB1;
+}
+
+.fifties .burger div {
+  background-color: #E6F3EE;
+}
+
+.fifties main h2,
+.fifties main p {
+  color: #91CBB1;
+}
+
+.fifties .sous-titre {
+  margin: 0 20px;
+}
+
+.img_artist {
+  margin: 100px 0 0;
+}
+.fifties .citation {
+  background-color: #91CBB1;
+}
+
+.fifties .citation p {
+  color: #E6F3EE;
+}
+
+.fifties .produit-1 {
+  color: #FDC607;
+}
+
+.fifties .produit-2 {
+  color: #EE732B;
+}
