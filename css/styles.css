@@ -21,14 +21,16 @@ body {
   right: 100%;
   background-color: #fcfcfc;
   transition: 1s;
-  width: 100%;
+  width: 375px;
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 
 .navi-activ {
-  right: 0;
+  right: 50%;
   transition: 1s;
+  transform: translateX(50%);
 }
 
 .nav_bar img {
